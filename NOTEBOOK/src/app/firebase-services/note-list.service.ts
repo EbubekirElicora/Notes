@@ -55,13 +55,13 @@ export class NoteListService {
       await addDoc(this.getNotesRef(), item).catch(
         (err) => { console.error(err) }
       ).then(
-        (docRef) => console.log("Document written with ID: ", docRef?.id)
+        (docRef) => console.log("Document written with ID: ", docRef?.id, " in notes!")
       );
     } else if (colId === "trash") {
       await addDoc(this.getTrashRef(), item).catch(
         (err) => { console.error(err) }
       ).then(
-        (docRef) => console.log("Document written with ID: ", docRef?.id)
+        (docRef) => console.log("Document written with ID: ", docRef?.id, "in trash!")
       );
     }
   }
