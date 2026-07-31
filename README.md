@@ -457,11 +457,3 @@ Do not store sensitive personal information in an unsecured test database.
 ## Disclaimer
 
 This project was created for educational and portfolio purposes to practise Angular and Firebase Firestore integration.
-
----
-
-## Author
-
-**Ebubekir Elicora**
-
-[GitHub](https://github.com/EbubekirElicora) · [Portfolio](https://ebubekir-elicora.de/) · [LinkedIn](https://www.linkedin.com/in/ebubekir-eli%C3%A7ora-a27b47392/)
